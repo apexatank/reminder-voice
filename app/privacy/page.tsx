@@ -10,28 +10,28 @@ export default function PrivacyPolicy() {
     <div className="min-h-screen bg-[#0E061B] text-slate-50 relative font-sans">
       {/* Background Orbs */}
       <div className="absolute top-0 right-1/2 translate-x-1/2 w-[800px] h-[600px] bg-[#663CE6]/15 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-[-10%] left-0 w-[500px] h-[500px] bg-[#3B82F6]/10 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute bottom-[-1%] left-0 w-[500px] h-[500px] bg-[#3B82F6]/10 rounded-full blur-[100px] pointer-events-none" />
 
       {/* Navbar */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#0E061B]/60 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-14 h-14 rounded-2xl overflow-hidden border border-white/10 group-hover:scale-105 transition-transform shadow-lg shadow-purple-500/10">
+          <Link href="/" className="flex items-center gap-2 group">
+            <div className="w-8 h-8 sm:w-14 sm:h-14 rounded-lg sm:rounded-2xl overflow-hidden border border-white/10 group-hover:scale-105 transition-transform shadow-lg shadow-purple-500/10">
               <img src="/logo.jpg" alt="Remind Voice Logo" className="w-full h-full object-cover" />
             </div>
-            <span className="font-bold text-2xl tracking-tight">Remind Voice</span>
+            <span className="font-bold text-base sm:text-2xl tracking-tight bg-clip-text text-transparent bg-linear-to-r from-white to-slate-400">Remind Voice</span>
           </Link>
-          
-          <Link href="/" className="flex items-center gap-2 text-sm font-medium text-slate-300 hover:text-white transition-colors">
-            <ArrowLeft className="w-4 h-4" />
-            Back to Home
+
+          <Link href="/" className="flex items-center gap-2 text-xs sm:text-sm font-medium text-slate-300 hover:text-white transition-colors">
+            <ArrowLeft className="w-3 h-3 sm:w-4 sm:h-4 text-purple-400" />
+            Back
           </Link>
         </div>
       </header>
 
       <main className="relative z-10 pt-32 pb-20">
         <div className="max-w-3xl mx-auto px-6">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
@@ -46,21 +46,21 @@ export default function PrivacyPolicy() {
             </p>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="prose prose-invert max-w-none space-y-12"
           >
-            <section className="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm">
-                <div className="flex items-center gap-3 mb-6">
-                    <div className="w-10 h-10 bg-purple-500/20 rounded-xl flex items-center justify-center">
-                        <Lock className="w-5 h-5 text-purple-400" />
-                    </div>
-                    <h2 className="text-2xl font-bold m-0 text-white">Data Collection</h2>
+            <section className="bg-white/5 border border-white/10 p-6 sm:p-8 rounded-[2rem] sm:rounded-3xl backdrop-blur-sm">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-10 h-10 bg-purple-500/20 rounded-xl flex items-center justify-center">
+                  <Lock className="w-5 h-5 text-purple-400" />
                 </div>
+                <h2 className="text-xl sm:text-2xl font-bold m-0 text-white">Data Collection</h2>
+              </div>
               <p className="text-slate-300 leading-relaxed">
-                At Remind Voice, we collect minimal data to provide you with the best experience. When you use our voice reminder service, we process your voice input locally on your device whenever possible. 
+                At Remind Voice, we collect minimal data to provide you with the best experience. When you use our voice reminder service, we process your voice input locally on your device whenever possible.
               </p>
               <ul className="list-disc list-inside text-slate-400 space-y-3 mt-4">
                 <li>Voice recordings are only used for immediate transcription.</li>
@@ -69,13 +69,13 @@ export default function PrivacyPolicy() {
               </ul>
             </section>
 
-            <section className="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm">
-                <div className="flex items-center gap-3 mb-6">
-                    <div className="w-10 h-10 bg-blue-500/20 rounded-xl flex items-center justify-center">
-                        <Eye className="w-5 h-5 text-blue-400" />
-                    </div>
-                    <h2 className="text-2xl font-bold m-0 text-white">How We Use Data</h2>
+            <section className="bg-white/5 border border-white/10 p-6 sm:p-8 rounded-[2rem] sm:rounded-3xl backdrop-blur-sm">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-10 h-10 bg-blue-500/20 rounded-xl flex items-center justify-center">
+                  <Eye className="w-5 h-5 text-blue-400" />
                 </div>
+                <h2 className="text-xl sm:text-2xl font-bold m-0 text-white">How We Use Data</h2>
+              </div>
               <p className="text-slate-300 leading-relaxed">
                 Your data is used solely for the purpose of creating and managing your reminders. We utilize AI processing to understand the context, time, and date from your voice commands.
               </p>
@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
               <p className="text-slate-300 leading-relaxed">
                 We implement industry-standard security measures to protect your data. All communication between your device and our servers is encrypted using SSL/TLS protocols.
               </p>
-              
+
               <h2 className="text-2xl font-bold text-white">Cookies</h2>
               <p className="text-slate-300 leading-relaxed">
                 We use essential cookies to keep you logged in and remember your preferences. You can manage cookie settings in your browser at any time.
@@ -101,9 +101,9 @@ export default function PrivacyPolicy() {
               <p className="text-slate-300 mb-6">
                 If you have any questions regarding this policy or your data rights, please contact our privacy officer at:
               </p>
-              <a href="mailto:privacy@remindvoice.com" className="text-purple-400 font-semibold hover:text-purple-300 transition-colors">
+              <Link href="mailto:privacy@remindvoice.com" className="text-purple-400 font-semibold hover:text-purple-300 transition-colors">
                 privacy@remindvoice.com
-              </a>
+              </Link>
             </section>
           </motion.div>
         </div>
