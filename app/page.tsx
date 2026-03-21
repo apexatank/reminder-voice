@@ -787,9 +787,9 @@ export default function Home() {
                   <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-blue-500 transition-colors"><Phone className="w-4 h-4" /></div>
                   +91 83069 23616
                 </Link>
-                <Link href="mailto:Rvremindvoice@gmail.com" className="flex items-center gap-3 text-sm text-slate-500 hover:text-white transition-colors group">
+                <Link href="mailto:vvremindvoice@gmail.com" className="flex items-center gap-3 text-sm text-slate-500 hover:text-white transition-colors group">
                   <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-purple-500 transition-colors"><Mail className="w-4 h-4" /></div>
-                  Rvremindvoice@gmail.com
+                  rvremindvoice@gmail.com
                 </Link>
               </div>
             </div>

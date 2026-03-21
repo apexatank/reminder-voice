@@ -88,13 +88,13 @@ export default function Contact() {
                 <div>
                   <h2 className="text-2xl sm:text-4xl font-bold mb-6 md:mb-8">Get in Touch</h2>
                   <div className="space-y-6 md:space-y-8">
-                    <Link href="mailto:Rvremindvoice@gmail.com" className="flex items-center gap-4 sm:gap-6 group/link">
+                    <Link href="mailto:rvremindvoice@gmail.com" className="flex items-center gap-4 sm:gap-6 group/link">
                       <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white/5 rounded-2xl flex items-center justify-center group-hover/link:bg-purple-500 transition-all duration-500">
                         <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-purple-400 group-hover/link:text-white" />
                       </div>
                       <div className="flex-1 min-w-0">
                         <p className="text-[10px] font-bold uppercase tracking-widest text-slate-500 mb-1">Email Address</p>
-                        <p className="text-sm sm:text-xl font-bold truncate">Rvremindvoice@gmail.com</p>
+                        <p className="text-sm sm:text-xl font-bold truncate">rvremindvoice@gmail.com</p>
                       </div>
                     </Link>
                     <Link href="tel:8306923616" className="flex items-center gap-4 sm:gap-6 group/link">

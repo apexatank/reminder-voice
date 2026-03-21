@@ -101,8 +101,8 @@ export default function PrivacyPolicy() {
               <p className="text-slate-300 mb-6">
                 If you have any questions regarding this policy or your data rights, please contact our privacy officer at:
               </p>
-              <Link href="mailto:privacy@remindvoice.com" className="text-purple-400 font-semibold hover:text-purple-300 transition-colors">
-                privacy@remindvoice.com
+              <Link href="mailto:rvremindvoice@gmail.com" className="text-purple-400 font-semibold hover:text-purple-300 transition-colors">
+                 rvremindvoice@gmail.com
               </Link>
             </section>
           </motion.div>
